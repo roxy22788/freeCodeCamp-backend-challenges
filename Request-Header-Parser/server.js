@@ -10,6 +10,6 @@ app.get('/api/whoami', function(req, res){
   })
 });
 
-var listener = app.listen(PORT, function () {
+app.listen(PORT, function () {
   console.log('Your app is listening on port ' + PORT);
 });
